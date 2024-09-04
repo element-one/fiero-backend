@@ -1,0 +1,21 @@
+{
+  "compilerOptions": {
+    "baseUrl": ".",
+    "paths": {
+      "@type/*": ["./src/types/*"],
+      "@dtos/*": ["./src/dtos/*"],
+      "@entities/*": ["./src/entities/*"],
+      "@config/*": ["./src/config/*"],
+      "@decorators/*": ["./src/decorators/*"],
+      "@exceptions/*": ["./src/exceptions/*"],
+      "@guards/*": ["./src/guards/*"],
+      "@interceptors/*": ["./src/interceptors/*"],
+      "@types/*": ["./src/types/*"],
+      "@modules/*": ["./src/modules/*"],
+      "@services/*": ["./src/services/*"],
+      "@abi/*": ["./src/abi/*"],
+      "@swagger/*": ["./src/swagger/*"],
+      "@utils/*": ["./src/utils/*"]
+    }
+  }
+}
