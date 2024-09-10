@@ -23,7 +23,7 @@ export class SesService {
       const ses = this.getSES();
 
       const params = {
-        Source: 'no-reply@harpoonrewardsclub.com',
+        Source: 'no-reply@fierotequilarewards.com',
         Destination: {
           ToAddresses: [email],
         },
@@ -79,7 +79,7 @@ export class SesService {
       const ses = this.getSES();
 
       const params = {
-        Source: 'no-reply@harpoonrewardsclub.com',
+        Source: 'no-reply@fierotequilarewards.com',
         Destination: {
           ToAddresses: [email],
         },
@@ -133,7 +133,7 @@ export class SesService {
       const ses = this.getSES();
 
       const params = {
-        Source: 'no-reply@harpoonrewardsclub.com',
+        Source: 'no-reply@fierotequilarewards.com',
         Destination: {
           ToAddresses: [email],
         },
@@ -174,7 +174,7 @@ export class SesService {
       const ses = this.getSES();
 
       const params = {
-        Source: 'no-reply@harpoonrewardsclub.com',
+        Source: 'no-reply@fierotequilarewards.com',
         Destination: {
           ToAddresses: [email],
         },
@@ -188,7 +188,7 @@ export class SesService {
 
 <p>Thanks for posting your first video through Drumbeat! We are reviewing your submission and will approve it asap. </p>
 
-<p>You will get an email when your submission is approved with your gift card information. Please reach out to <a href="mailto:no-reply@harpoonrewardsclub.com">no-reply@harpoonrewardsclub.com</a> if you have not received anything within 72 hours (make sure to check your spam folder). </p>
+<p>You will get an email when your submission is approved with your gift card information. Please reach out to <a href="mailto:no-reply@fierotequilarewards.com">no-reply@fierotequilarewards.com</a> if you have not received anything within 72 hours (make sure to check your spam folder). </p>
 
 <p>Yeehaw,</p>
 
@@ -220,7 +220,7 @@ export class SesService {
       const ses = this.getSES();
 
       const params = {
-        Source: 'no-reply@harpoonrewardsclub.com',
+        Source: 'no-reply@fierotequilarewards.com',
         Destination: {
           ToAddresses: [email],
         },
@@ -266,7 +266,7 @@ export class SesService {
       const ses = this.getSES();
 
       const params = {
-        Source: 'no-reply@harpoonrewardsclub.com',
+        Source: 'no-reply@fierotequilarewards.com',
         Destination: {
           ToAddresses: [email],
         },
@@ -326,7 +326,7 @@ export class SesService {
       const ses = this.getSES();
 
       const params = {
-        Source: 'no-reply@harpoonrewardsclub.com',
+        Source: 'no-reply@fierotequilarewards.com',
         Destination: {
           ToAddresses: [email],
         },
@@ -368,7 +368,7 @@ export class SesService {
       const ses = this.getSES();
 
       const params = {
-        Source: 'no-reply@harpoonrewardsclub.com',
+        Source: 'no-reply@fierotequilarewards.com',
         Destination: {
           ToAddresses: [email],
         },
@@ -405,7 +405,7 @@ export class SesService {
       const ses = this.getSES();
 
       const params = {
-        Source: 'no-reply@harpoonrewardsclub.com',
+        Source: 'no-reply@fierotequilarewards.com',
         Destination: {
           ToAddresses: [email],
         },
@@ -420,7 +420,7 @@ export class SesService {
 
 <p>Head back to drumbeat.fun to claim your tickets 🙌</p>
 
-<p>Please reach out to no-reply@harpoonrewardsclub.com if you have questions.</p>
+<p>Please reach out to no-reply@fierotequilarewards.com if you have questions.</p>
 
 <p>Cheers, </p>
 
