@@ -34,18 +34,18 @@ export class SesService {
               Charset: 'UTF-8',
               Data: `<p>Hi there,</p>
 
-<p>You’re in! Welcome to Harpoon Rewards. </p>
+<p>You’re in! Welcome to the Fiero Heat Seekers. </p>
 
 <p>Your login code is ${code} </p>
 
-<p>Harpoon Rewards members have exclusive access to swag, event tickets, VIP access, and fun rewards.</p>
+<p>Fiero Heat Seekers members have exclusive access to swag, event tickets, VIP access, and fun rewards.</p>
 
 <p>It’s easy to get started:</p>
 
 <ul>
-  <li><strong>Earn</strong> Harpoon points on <a href="https://harpoonrewardsclub.com">harpoonrewardsclub.com</a> by completing challenges: responding to surveys, sharing photos, voting on new flavors, inviting friends, and more!</li>
+  <li><strong>Earn</strong> Fiero points at <a href="http://fierotequila.com/loyalty">[fierotequila.com/loyalty]</a> by completing challenges: responding to surveys, sharing photos, voting on new flavors, inviting friends, and more!</li>
 
-  <li><strong>Redeem</strong> your Harpoon points for fun rewards: swag, event tickets, VIP access, and personalized products and experiences.</li>
+  <li><strong>Redeem</strong> your Fiero points at <a href="http://fierotequila.com/loyalty">[fierotequila.com/loyalty]</a> for fun rewards: swag, event tickets, VIP access, and personalized products and experiences.</li>
 </ul>
 
 <p>You can check out your points total any time on your profile. And keep an eye on your inbox for special drops and time-limited sweepstakes and contests!</p>
@@ -54,14 +54,14 @@ export class SesService {
 
 <p>Cheers,</p>
 
-<p>Harpoon Brewing</p>
+<p>Fiero Tequila</p>
 
 <p><em>Please drink responsibly!</em></p>`,
             },
           },
           Subject: {
             Charset: 'UTF-8',
-            Data: `Your login code is ${code}. Welcome to Harpoon Rewards!`,
+            Data: `Your login code is ${code}. Welcome to the Fiero Heat Seekers!`,
           },
         },
       };
@@ -90,16 +90,16 @@ export class SesService {
               Charset: 'UTF-8',
               Data: `<p>Hi there,</p>
 
-<p>You’re in! Welcome to Harpoon Rewards. </p>
+<p>You’re in! Welcome to the Fiero Heat Seekers. </p>
 
-<p>Harpoon Rewards members have exclusive access to swag, event tickets, VIP access, and fun rewards.</p>
+<p>Fiero Heat Seekers members have exclusive access to swag, event tickets, VIP access, and fun rewards.</p>
 
 <p>It’s easy to get started:</p>
 
 <ul>
-  <li><strong>Earn</strong> Harpoon points on <a href="https://harpoonrewardsclub.com">harpoonrewardsclub.com</a> by completing challenges: responding to surveys, sharing photos, voting on new flavors, inviting friends, and more!</li>
+  <li><strong>Earn</strong> Fiero points at <a href="http://fierotequila.com/loyalty">[fierotequila.com/loyalty]</a> by completing challenges: responding to surveys, sharing photos, voting on new flavors, inviting friends, and more!</li>
 
-  <li><strong>Redeem</strong> your Harpoon points for fun rewards: swag, event tickets, VIP access, and personalized products and experiences.</li>
+  <li><strong>Redeem</strong> your Fiero points at <a href="http://fierotequila.com/loyalty">[fierotequila.com/loyalty]</a> for fun rewards: swag, event tickets, VIP access, and personalized products and experiences.</li>
 </ul>
 
 <p>You can check out your points total any time on your profile. And keep an eye on your inbox for special drops and time-limited sweepstakes and contests!</p>
@@ -108,14 +108,14 @@ export class SesService {
 
 <p>Cheers,</p>
 
-<p>Harpoon Brewing</p>
+<p>Fiero Tequila</p>
 
 <p><em>Please drink responsibly!</em></p>`,
             },
           },
           Subject: {
             Charset: 'UTF-8',
-            Data: `Welcome to Harpoon Rewards!`,
+            Data: `Welcome to the Fiero Heat Seekers!`,
           },
         },
       };
@@ -145,18 +145,18 @@ export class SesService {
               Data: `
 <p>Hi there,</p>
 
-<p>${code} is your login code for Harpoon Rewards. Let’s raise a glass together!</p>
+<p>${code} is your login code for the Fiero Heat Seekers. Let’s raise a glass together!</p>
 
 <p>Cheers,</p>
 
-<p>Harpoon Brewing</p>
+<p>Fiero Tequila</p>
 
 <p><em>Please drink responsibly!</em></p>`,
             },
           },
           Subject: {
             Charset: 'UTF-8',
-            Data: `${code} is your login code for Harpoon Rewards`,
+            Data: `${code} is your login code for the Fiero Heat Seekers`,
           },
         },
       };
@@ -277,22 +277,22 @@ export class SesService {
               Charset: 'UTF-8',
               Data: `<p>Hey there,</p>
 
-<p>You’ve been invited to join Harpoon Rewards by a friend!</p>
+<p>You’ve been invited to join the Fiero Tequila Heat Seekers by a friend!</p>
 
-<p>Harpoon Rewards is the community & rewards platform for Harpoon Brewing, home of New England’s Original IPA.</p>
+<p>The Heat Seekers is the community & rewards platform for Fiero Tequila, the spiciest tequila in the US.</p>
 
-<p>Harpoon Rewards members have exclusive access to swag, event tickets, VIP access, and fun rewards.</p>
+<p>Fiero Heat Seekers have exclusive access to swag, event tickets, VIP access, and fun rewards.</p>
 
 <p>When you sign up, we’ll drop you and the friend that referred you an extra ${REFERRAL_POINTS} points!</p>
 
 <p>It’s easy to get started:</p>
 
 <ul>
-  <li><strong>Sign up</strong> with your email address at <a href="https://harpoonrewardsclub.com">harpoonrewardsclub.com.</a></li>
+  <li><strong>Sign up</strong> with your email address at <a href="http://fierotequila.com/loyalty">[fierotequila.com/loyalty]</a></li>
 
-  <li><strong>Earn</strong> Harpoon points by completing challenges: responding to surveys, sharing photos, voting on new flavors, inviting friends, and more!</li>
+  <li><strong>Earn</strong> Fiero points by completing challenges: responding to surveys, sharing photos, voting on new flavors, inviting friends, and more!</li>
 
-  <li><strong>Redeem</strong> your Harpoon points for fun rewards: swag, event tickets, VIP access, and personalized products and experiences.</li>
+  <li><strong>Redeem</strong> your Fiero points for fun rewards: swag, event tickets, VIP access, and personalized products and experiences.</li>
 </ul>
 
 <p>You can check out your points total any time on your profile. And keep an eye on your inbox for special drops and time-limited sweepstakes and contests!</p>
@@ -301,14 +301,14 @@ export class SesService {
 
 <p>Cheers,</p>
 
-<p>Harpoon Brewing</p>
+<p>Fiero Tequila</p>
 
 <p><em>Please drink responsibly!</em></p>`,
             },
           },
           Subject: {
             Charset: 'UTF-8',
-            Data: `Cheers! You’ve been invited to join Harpoon Rewards Rewards by a friend!`,
+            Data: `Fiero Tequila Rewards: You've been invited by a friend!`,
           },
         },
       };
@@ -337,20 +337,20 @@ export class SesService {
               Charset: 'UTF-8',
               Data: `<p>Hey there,</p>
 
-<p>Looks like you’ve been shaking it up! One of your friends just joined Harpoon Rewards using your personal referral link.</p>
+<p>Looks like you’ve been heating things up! One of your friends just joined the Fiero Heat Seekers using your personal referral link.</p>
 
-<p>You’ve earned an extra ${REFERRAL_POINTS} Harpoon points. Log in now at <a href="https://harpoonrewardsclub.com">harpoonrewardsclub.com</a> to start spending!</p>
+<p>You’ve earned an extra ${REFERRAL_POINTS} Fiero points. Log in now at <a href="http://fierotequila.com/loyalty">fierotequila.com/loyalty</a> to start spending!</p>
 
 <p>Cheers,</p>
 
-<p>Harpoon Brewing</p>
+<p>Fiero Tequila</p>
 
 <p><em>Please drink responsibly!</em></p>`,
             },
           },
           Subject: {
             Charset: 'UTF-8',
-            Data: `You’ve earned points! Your friend just joined Harpoon Rewards through your personal referral link`,
+            Data: `You've earned points! Your friend just joined the Fiero Heat Seekers through your personal referral link`,
           },
         },
       };
