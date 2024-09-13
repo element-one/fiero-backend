@@ -47,6 +47,7 @@ async function bootstrap() {
   }
   origin.push(process.env.WEB_URL);
   origin.push('https://www.badbunnyvotingchallenge.com');
+  origin.push('https://www.fierotequilarewards.com');
 
   const allowedHeaders = ['Accept', 'Content-Type', 'Authorization'];
   if (process.env.APP_ENV === 'dev') {
