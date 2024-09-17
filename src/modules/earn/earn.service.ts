@@ -35,7 +35,7 @@ import { UserHoldingService } from '@modules/user-holding/user-holding.service';
 import { UserReceiptService } from '@modules/user-receipt/user-receipt.service';
 import { UserReferralService } from '@modules/user-referral/user-referral.service';
 import { S3Service } from '@services/aws/s3.service';
-import { EarnEnum, EarnSocialEnum } from '@type/enum';
+import { EarnEnum, EarnSocialEnum, Order } from '@type/enum';
 import { isTrue } from '@utils/common';
 import {
   findHashtag,
@@ -48,6 +48,8 @@ import { CheckReceiptDto } from './dto/check-receipt.dto';
 import { CompleteEarnDto } from './dto/complete-earn.dto';
 import { EarnDto } from './dto/earn.dto';
 import { EarnParamsDto } from './dto/earn-params.dto';
+import { WidgetParamsDto } from './dto/widget-params.dto';
+import { WidgetResponseDto } from './dto/widget-response.dto';
 import { EarnRepository } from './earn.repository';
 
 @Injectable()
@@ -81,6 +83,16 @@ export class EarnService {
     const pageMetaDto = new PageMetaDto({ itemCount, pageOptionsDto });
 
     return new PageDto(entities, pageMetaDto);
+  }
+
+  async getWidgetEarn(params: WidgetParamsDto): Promise<WidgetResponseDto> {
+    const { entities } = await this.earnRepository.findByParams({
+      slug: params.slug,
+      take: params.count || 4,
+      order: Order.DESC,
+    } as EarnParamsDto);
+
+    return { earns: entities };
   }
 
   async getEarn(userId: string, earnId: string): Promise<EarnEntity> {

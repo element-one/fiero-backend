@@ -38,7 +38,7 @@ export class EarnRepository extends Repository<EarnEntity> {
     }
 
     if (pageOptionsDto.slug) {
-      queryBuilder.andWhere('earn.brand.slug = :slug', {
+      queryBuilder.andWhere('brand.slug = :slug', {
         slug: pageOptionsDto.slug,
       });
     }

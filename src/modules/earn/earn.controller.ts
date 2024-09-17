@@ -24,6 +24,8 @@ import { CompleteEarnDto } from './dto/complete-earn.dto';
 import { EarnDto } from './dto/earn.dto';
 import { EarnParamsDto } from './dto/earn-params.dto';
 import { UserEarnResponseDto } from './dto/user-earn-response.dto';
+import { WidgetParamsDto } from './dto/widget-params.dto';
+import { WidgetResponseDto } from './dto/widget-response.dto';
 import { EarnService } from './earn.service';
 
 @Controller('earns')
@@ -36,6 +38,14 @@ export class EarnController {
   @ApiPaginatedResponse(EarnDto)
   async getEarns(@Query() params: EarnParamsDto): Promise<PageDto<EarnDto>> {
     return this.earnService.getEarns(params);
+  }
+
+  @Get('/widget')
+  @HttpCode(HttpStatus.OK)
+  async getWidgetEarn(
+    @Query() params: WidgetParamsDto,
+  ): Promise<WidgetResponseDto> {
+    return await this.earnService.getWidgetEarn(params);
   }
 
   @Get('/:id')
